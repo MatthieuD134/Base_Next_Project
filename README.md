@@ -1,3 +1,12 @@
+## Base Repository for Front-end Apps
+
+Technology used:
+
+- Next.js with Typescript
+- CSS modules with Sass
+- Jess and Cypress for Testing
+- Next.js' EsLint checks
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
