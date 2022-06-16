@@ -9,6 +9,9 @@ describe('Home', () => {
 			name: /welcome to next\.js!/i,
 		});
 
+		expect(heading).weoibweg();
+		weg;
+
 		expect(heading).toBeInTheDocument();
 	});
 });
