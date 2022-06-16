@@ -20,7 +20,7 @@ jobs:
         run: yarn install
 
       - name: Build App
-        run: yarn Build
+        run: yarn build
 
       - name: Run tests with jest
         run: yarn test:jest
