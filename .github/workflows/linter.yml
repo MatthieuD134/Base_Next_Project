@@ -1,13 +1,14 @@
 name: EsLint Check
 
 on: push
+
 jobs:
   run-lint:
+    name: EsLint Check
     runs-on: ubuntu-latest
     strategy:
       matrix:
         node: ['16.x']
-    name: EsLint Check
     steps:
       - uses: actions/checkout@v2
       - name: Setup node
@@ -16,7 +17,7 @@ jobs:
           node-version: ${{ matrix.node }}
 
       - name: Install Dependencies
-        run: npm install
+        run: yarn install
 
       - name: Run Eslint checks
-        run: npm run lint
+        run: yarn lint
